@@ -1,0 +1,25 @@
+{
+  "name": "brackets-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "dhruvdutt",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "jest": "^23.1.0"
+  },
+  "scripts": {
+    "format": "eslint --fix src/* index.js",
+    "lint": "eslint src/* index.js",    
+    "start": "node index.js",
+    "test": "jest",
+    "watch": "jest --watchAll"
+  }
+}
